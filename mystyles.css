@@ -1,0 +1,52 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+html { 
+  background: url(drum_cover.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+.my_titles {
+/* border: solid blue; */
+text-align: center;
+margin-bottom: 5em;
+}
+.first {
+  margin-bottom: 1em;
+  font-size: 4em;
+}
+.second {
+  font-size: 2em;
+}
+.touches {
+  /* border: dashed red; */
+  display: flex;
+  flex-direction: row ;
+  }
+.touche {
+  /* border: dashed green; */
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px; 
+  margin: 0.5em;
+  color: black;
+  font-size: 2em;
+  border-radius: 25px;
+  background-color:rgba(255, 255, 255, 0.5);
+  
+  }
+
+.wrapper {
+  
+  border: solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
